@@ -16,7 +16,7 @@ go get -u github.com/rodrigo-brito/memory-cache
 
 ```go
 type User struct {
-	Name string
+    Name string
 }
 
 // Create a new cache for type `User` with a clean-up interval of 1 hour
